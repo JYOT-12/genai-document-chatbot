@@ -4,7 +4,7 @@ from langchain_text_splitters import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-st.title("GenAI Document Question Answering System")
+st.title("Developed by Jyoti Raditya")
 
 uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
 
